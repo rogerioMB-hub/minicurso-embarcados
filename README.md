@@ -1,4 +1,4 @@
-# Sistemas Embarcados — Mini Curso: Lógica Digital com ESP32
+# Sistemas Embarcados — Mini Curso 01: Lógica Digital com ESP32
 
 ![Banner do curso](./assets/banner.svg)
 
