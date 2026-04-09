@@ -1,0 +1,35 @@
+title: "Sistemas Embarcados — Lógica Digital com ESP32"
+description: "Mini curso 01 para o Curso Técnico em Automação Industrial. Do bit ao byte — operadores bitwise, máscaras, flags e UART com ESP32 e MicroPython."
+
+theme: jekyll-theme-cayman
+
+# URL base — substitua pelo seu usuário do GitHub
+baseurl: "/minicurso-embarcados"
+url: "https://rogerioMB-hub.github.io"
+
+# Navegação entre páginas
+header_pages:
+  - index.md
+  - aulas/aula01-leitura-escrita-digital.md
+  - aulas/aula02-operadores-bitwise.md
+  - aulas/aula03-listas-mascaras.md
+  - aulas/aula04-deslocamento-escrita-porta.md
+  - aulas/aula05-flags-estados.md
+  - aulas/aula06-uart-bytes.md
+
+# Configurações gerais
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Destaque de sintaxe de código
+rouge:
+  wrap: true
+
+# Exclui arquivos que não devem virar páginas web
+exclude:
+  - "*.zip"
+  - "{aulas,assets}"
